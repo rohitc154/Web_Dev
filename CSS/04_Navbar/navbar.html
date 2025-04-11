@@ -116,10 +116,52 @@
         /* Stying Navigationbar 3 */
         .nav3{
             background-color: rgb(61, 57, 52);
-
+            border-radius: 10px;
+            padding: 10px;
         }
-    </style>
-    <style>
+
+        .nav3 ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .nav3 a{
+            text-decoration: none;
+            color: beige;
+            padding: 3px 10px;
+            display: block;
+        }
+        .nav3 .dropdown-content{
+            display: none;
+        }
+        .nav3 .dropdown:hover .dropdown-content{
+            display: block;
+            position: absolute;
+            background-color: rgb(61, 57, 52);
+            /* background-color: rgb(197, 140, 60); */
+            /* margin: 10px; */
+            padding: 10px 10px;
+            border-radius: 10px;
+        }
+        .nav3 .dropdown-content a:hover{
+            background-color: rgb(208, 131, 22);
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .nav3 .login-btn{
+            background-color: rgb(208, 131, 22);
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+            padding: 5px 10px;
+            width: 100%;
+            color: beige;
+        }
         
     </style>
 </head>

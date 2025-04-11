@@ -1,28 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Basics</title>
     <style>
-        h2{
-            color: brown;
-        }
-        p{
-            color: rgb(109, 57, 38);
-        }
-        /* Class Selector */
-        .browntext{
-            color: blueviolet;
-        }
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+      }
+      h2 {
+        color: brown;
+      }
+      p {
+        color: rgb(109, 57, 38);
+      }
+      /* Class Selector */
+      .browntext {
+        color: blueviolet;
+      }
+
+      .container {
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .content {
+        border: 2px solid red;
+      }
     </style>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1 style="color: rgb(221, 161, 21);">Lorem ipsum dolor sit amet.</h1>
-    <h2 class="browntext">Lorem ipsum dolor sit amet.</h2>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quam, maiores repudiandae sint inventore id placeat dign issimos? Laudantium adipisci, cum possimus voluptates eaque dolorum at. Harum blanditiis placeat iste voluptate aperiam asperiores voluptas dicta eligendi, corrupti quis ut quo? Illum accusantium dolores illo exercitationem! Odio architecto nihil nam earum dolorem facilis expedita ut commodi impedit illum, sed delectus deleniti sit nisi error rem perspiciatis officiis id non beatae autem. Ratione ea vitae architecto deleniti itaque, nam animi voluptate rem optio. Libero atque facere deleniti velit expedita exercitationem possimus iusto! Labore autem dolorum ratione fuga voluptates dignissimos explicabo voluptatibus quas ut.
-    </p>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1 style="color: rgb(221, 161, 21)">Lorem ipsum dolor sit amet.</h1>
+        <h2 class="browntext">Lorem ipsum dolor sit amet.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          quam, maiores repudiandae sint inventore id placeat dign issimos?
+          Laudantium adipisci, cum possimus voluptates eaque dolorum at. Harum
+          blanditiis placeat iste voluptate aperiam asperiores voluptas dicta
+          eligendi, corrupti quis ut quo? Illum accusantium dolores illo
+          exercitationem! Odio architecto nihil nam earum dolorem facilis
+          expedita ut commodi impedit illum, sed delectus deleniti sit nisi
+          error rem perspiciatis officiis id non beatae autem. Ratione ea vitae
+          architecto deleniti itaque, nam animi voluptate rem optio. Libero
+          atque facere deleniti velit expedita exercitationem possimus iusto!
+          Labore autem dolorum ratione fuga voluptates dignissimos explicabo
+          voluptatibus quas ut.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
